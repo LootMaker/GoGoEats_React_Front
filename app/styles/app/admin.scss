@@ -1,0 +1,178 @@
+$black: #222;
+$white: #fff;
+$orange: #f71421;
+$bg_business: #373b47;
+
+::selection {
+    color: $white;
+    background: $orange;
+}
+
+.body_white {
+    background: $white;
+}
+
+.logo_gogo_dash {
+    width: 57px;
+}
+
+.img-coll {
+    position: relative;
+    top: 8px;
+}
+
+.padding {
+    padding: 0;
+}
+
+.btn-options a {
+    margin: 0 8px 0 0;
+    color: $black;
+}
+
+.btn-options a:hover {
+    text-decoration: none;
+}
+
+.country_icon img {
+    border-radius: 7px;
+    position: relative;
+    left: -1px;
+    top: -2px;
+}
+.btn-black {
+    background: $black;
+}
+
+.btn-business{
+    color: $white;
+    background: $bg_business;
+}
+
+.btn-business:hover, .btn-business:active, .btn-business:focus{
+    color: $white
+}
+
+.preview_business {
+    background: white;
+    width: 90%;
+    margin: 16px auto 0;
+    border: 1px #ececec solid;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    height: 164px;
+    overflow: hidden;
+}
+
+.btn_upload_business {
+    background: $bg_business;
+    color: #fff;
+    border-radius: 0px 0px 5px 5px !important;
+    width: 90%;
+    padding: 8px;
+}
+
+.btn_upload_business:hover, .btn_upload_business:active{
+    color: $white
+}
+
+.btn-black:hover {
+    background: $black;
+}
+
+#datatable1_info {
+    margin: 20px 0 0;
+}
+
+.rating_icon {
+    color: orange;
+    margin-right: 8px;
+}
+
+.profile_status {
+    border-bottom: 1px #dde6e9 solid;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.my_status {
+    float: right;
+}
+
+.col_pic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn_upload {
+    margin-left: 20px;
+}
+
+.btn-search {
+    background: $orange;
+    border-color: $orange !important;
+    color: $white;
+}
+
+.btn-search:hover {
+    color: $white;
+}
+
+.btn-new {
+    background: #5d9cec;
+    color: #fff;
+    border-color: #5d9cec !important;
+}
+
+.btn-new:hover {
+    color: #fff;
+}
+
+.btn_mobile {
+    display: none;
+}
+
+.btn_mobile button {
+    background: transparent;
+    color: #5d9cec;
+    border-color: #5d9cec !important;
+    border-radius: 0px;
+    padding: 4px 15px;
+}
+
+
+/* Dashboard Business */
+
+.box_orders_title {
+    padding: 10px 15px;
+    background: #333844;
+    color: #fff;
+}
+
+.box_orders_content {
+    background: #fff;
+    padding: 15px 0 0;
+}
+
+.manage_orders_btn button {
+    margin: 0 8px 0 0;
+}
+
+/* Earnings Page */
+
+.btn-filter {
+    position: relative;
+    top: 27px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .editsidebar {
+        margin-top: 0px !important;
+    }
+    .btn_mobile {
+        display: block;
+    }
+    .table_new_btn {
+        display: none
+    }
+}
