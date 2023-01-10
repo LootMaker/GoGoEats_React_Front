@@ -16,7 +16,7 @@
     "babel-runtime": "6.23.0",
     "centrifuge": "^1.4.8",
     "codemirror": "5.26.0",
-    "compression": "1.6.2",
+    "compression": "1.7.4",
     "cross-env": "5.0.0",
     "crypto-js": "^3.1.9-1",
     "datatables.net": "1.10.15",
